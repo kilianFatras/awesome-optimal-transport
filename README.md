@@ -9,9 +9,10 @@ A list of awesome papers and cool resources on optimal transport (OT) and its ap
 * [Books](#books)
 * [Papers](#papers)
   * [Fast approximation Optimal Transport](#fast-approximation-optimal-transport)
-    * [Approximation Optimal Transport](#approximation-optimal-transport)
+    * [Approximation Optimal Transport](#approximating-optimal-transport)
     * [Regularized Optimal Transport](#regularized-optimal-transport)
     * [Sliced Optimal Transport](#sliced-optimal-transport)
+  * [Unbalanced Optimal Transport](#unbalanced-optimal-transport)
   * [Generative Models](#generative-models)
   * [Domain Adaptations](#domain-adaptation)
 
@@ -37,49 +38,64 @@ Papers are ordered by theme and inside each theme by publication date (accepted 
 
 ## Fast approximation Optimal Transport
 
+Fast Optimal Transport problems
+
+### Approximating Optimal Transport
+
 Fast approximation of Optimal Transport problems
 
-### Approximation of Optimal Transport problems
-
- * [Learning with minibatch Wasserstein : asymptotic and gradient properties](http://proceedings.mlr.press/v108/fatras20a.html) (2020)
- * [Hierarchical Optimal Transport for Multimodal Distribution Alignment](https://papers.nips.cc/paper/9501-hierarchical-optimal-transport-for-multimodal-distribution-alignment) (2019)
- * [Optimal Transport: Fast Probabilistic Approximation with Exact Solvers](http://www.jmlr.org/papers/volume20/18-079/18-079.pdf) (2019)
- * [Multiscale Strategies for Computing Optimal Transport](https://jmlr.csail.mit.edu/papers/volume18/16-108/16-108.pdf) (2017)
+ * [Learning with minibatch Wasserstein : asymptotic and gradient properties](http://proceedings.mlr.press/v108/fatras20a.html) (AISTATS 2020) | [Code](https://github.com/kilianFatras/minibatch_Wasserstein)
+ * [Hierarchical Optimal Transport for Multimodal Distribution Alignment](https://papers.nips.cc/paper/9501-hierarchical-optimal-transport-for-multimodal-distribution-alignment) (NeurIPS 2019)
+ * [Optimal Transport: Fast Probabilistic Approximation with Exact Solvers](http://www.jmlr.org/papers/volume20/18-079/18-079.pdf) (JMLR 2019)
+ * [Multiscale Strategies for Computing Optimal Transport](https://jmlr.csail.mit.edu/papers/volume18/16-108/16-108.pdf) (JMLR 2017)
 
 ### Regularized Optimal Transport
 
 Regularized Optimal Transport and solvers
 
- * [Stochastic Optimization for Regularized Wasserstein Estimators](https://arxiv.org/abs/2002.08695) (2020)
- * [Interpolating between Optimal Transport and MMD using Sinkhorn Divergences](http://proceedings.mlr.press/v89/feydy19a) (2019) | [Code](https://github.com/jeanfeydy/geomloss)
- * [Sample Complexity of Sinkhorn Divergences](http://proceedings.mlr.press/v89/genevay19a.html) (2019)
- * [Smooth and Sparse Optimal Transport](http://proceedings.mlr.press/v84/blondel18a) (2018) | [Code](https://pythonot.github.io/gen_modules/ot.smooth.html#module-ot.smooth)
- * [Near-linear time approximation algorithms for optimal transport via Sinkhorn iteration](https://papers.nips.cc/paper/6792-near-linear-time-approximation-algorithms-for-optimal-transport-via-sinkhorn-iteration) (2017) | [Code](https://pythonot.github.io/gen_modules/ot.bregman.html)
- * [Stochastic Optimization for Large-scale Optimal Transport](https://papers.nips.cc/paper/6566-stochastic-optimization-for-large-scale-optimal-transport.pdf) (2016) | [Code](https://pythonot.github.io/gen_modules/ot.stochastic.html#module-ot.stochastic)
- * [Regularized Discrete Optimal Transport](https://arxiv.org/pdf/1307.5551.pdf)
- * [Sinkhorn Distances: Lightspeed Computation of Optimal Transport](https://papers.nips.cc/paper/4927-sinkhorn-distances-lightspeed-computation-of-optimal-transport) (2013)
+ * [Stochastic Optimization for Regularized Wasserstein Estimators](https://arxiv.org/abs/2002.08695) (ICML 2020)
+ * [Regularized Optimal Transport is Ground Cost Adversarial](https://arxiv.org/pdf/2002.03967.pdf) (ICML 2020)
+ * [Interpolating between Optimal Transport and MMD using Sinkhorn Divergences](http://proceedings.mlr.press/v89/feydy19a) (AISTATS 2019) | [Code](https://github.com/jeanfeydy/geomloss)
+ * [Sample Complexity of Sinkhorn Divergences](http://proceedings.mlr.press/v89/genevay19a.html) (AISTATS 2019)
+ * [Differential Properties of Sinkhorn Approximation for Learning with Wasserstein Distance](http://papers.nips.cc/paper/7827-differential-properties-of-sinkhorn-approximation-for-learning-with-wasserstein-distance) (NeurIPS 2018)
+ * [Smooth and Sparse Optimal Transport](http://proceedings.mlr.press/v84/blondel18a) (AISTATS 2018) | [Code](https://pythonot.github.io/gen_modules/ot.smooth.html#module-ot.smooth)
+ * [Near-linear time approximation algorithms for optimal transport via Sinkhorn iteration](https://papers.nips.cc/paper/6792-near-linear-time-approximation-algorithms-for-optimal-transport-via-sinkhorn-iteration) (NeurIPS 2017) | [Code](https://pythonot.github.io/gen_modules/ot.bregman.html)
+ * [Stochastic Optimization for Large-scale Optimal Transport](https://papers.nips.cc/paper/6566-stochastic-optimization-for-large-scale-optimal-transport.pdf) (NeurIPS 2016) | [Code](https://pythonot.github.io/gen_modules/ot.stochastic.html#module-ot.stochastic)
+ * [Regularized Discrete Optimal Transport](https://arxiv.org/pdf/1307.5551.pdf) (SIAM Journal on Imaging Sciences 2014)
+ * [Sinkhorn Distances: Lightspeed Computation of Optimal Transport](https://papers.nips.cc/paper/4927-sinkhorn-distances-lightspeed-computation-of-optimal-transport) (NeurIPS 2013)
 
 ### Sliced Optimal Transport
-* [Sliced Gromov-Wasserstein](https://papers.nips.cc/paper/9615-sliced-gromov-wasserstein) (2019) | [Code](https://github.com/tvayer/SGW)
-* [Generalized Sliced Wasserstein Distances](https://papers.nips.cc/paper/8319-generalized-sliced-wasserstein-distances) (2019)
-* [Max-Sliced Wasserstein Distance and Its Use for GANs](https://openaccess.thecvf.com/content_CVPR_2019/html/Deshpande_Max-Sliced_Wasserstein_Distance_and_Its_Use_for_GANs_CVPR_2019_paper.html) (2019)
+
+Sliced Optimal Transport (averaged of 1D projections)
+
+* [Sliced Gromov-Wasserstein](https://papers.nips.cc/paper/9615-sliced-gromov-wasserstein) (NeurIPS 2019) | [Code](https://github.com/tvayer/SGW)
+* [Generalized Sliced Wasserstein Distances](https://papers.nips.cc/paper/8319-generalized-sliced-wasserstein-distances) (NeurIPS 2019)
+* [Max-Sliced Wasserstein Distance and Its Use for GANs](https://openaccess.thecvf.com/content_CVPR_2019/html/Deshpande_Max-Sliced_Wasserstein_Distance_and_Its_Use_for_GANs_CVPR_2019_paper.html) (CVPR 2019)
+
+## Unbalanced Optimal Transport
+
+Unbalanced Optimal Transport variants
+
+* [Scaling Algorithms for Unbalanced Transport Problems](https://arxiv.org/abs/1607.05816) (Mathematics of Computation 2018)
+* [Unbalanced Optimal Transport: Dynamic and Kantorovich formulations](https://www.sciencedirect.com/science/article/pii/S0022123618301058) (Journal of Functional Analysis 2018) | [Code](https://pythonot.github.io/gen_modules/ot.unbalanced.html)
 
 ## Generative Models
 
 Optimal Transport for Generative Models
- * [Learning Generative Models across Incomparable Spaces](http://proceedings.mlr.press/v97/bunne19a) (2019) | [Code](https://github.com/bunnech/gw_gan)
- * [Sliced-Wasserstein Flows: Nonparametric Generative Modeling via Optimal Transport and Diffusions](http://proceedings.mlr.press/v97/liutkus19a) (2019) | [Code](https://github.com/aliutkus/swf)
- * [Sliced Wasserstein Generative Models](https://openaccess.thecvf.com/content_CVPR_2019/html/Wu_Sliced_Wasserstein_Generative_Models_CVPR_2019_paper.html) (2019)
- * [OT-GAN: Improving GANs Using Optimal Transport ](https://openreview.net/forum?id=rkQkBnJAb) (2018) | [Code](https://github.com/openai/ot-gan)
- * [Learning Generative Models with Sinkhorn Divergences](http://proceedings.mlr.press/v84/genevay18a.html) (2018)
- * [WGAN-GP: Improved Training of Wasserstein GANs](https://papers.nips.cc/paper/7159-improved-training-of-wasserstein-gans) (2017)
- * [WGAN: Wasserstein Generative Adversarial Networks](http://proceedings.mlr.press/v70/arjovsky17a.html) (2017)
+ * [Learning Generative Models across Incomparable Spaces](http://proceedings.mlr.press/v97/bunne19a) (ICML 2019) | [Code](https://github.com/bunnech/gw_gan)
+ * [Sliced-Wasserstein Flows: Nonparametric Generative Modeling via Optimal Transport and Diffusions](http://proceedings.mlr.press/v97/liutkus19a) (ICML 2019) | [Code](https://github.com/aliutkus/swf)
+ * [Sliced Wasserstein Generative Models](https://openaccess.thecvf.com/content_CVPR_2019/html/Wu_Sliced_Wasserstein_Generative_Models_CVPR_2019_paper.html) (CVPR 2019)
+ * [OT-GAN: Improving GANs Using Optimal Transport ](https://openreview.net/forum?id=rkQkBnJAb) (ICLR 2018) | [Code](https://github.com/openai/ot-gan)
+ * [Learning Generative Models with Sinkhorn Divergences](http://proceedings.mlr.press/v84/genevay18a.html) (AISTATS 2018)
+ * [WGAN-GP: Improved Training of Wasserstein GANs](https://papers.nips.cc/paper/7159-improved-training-of-wasserstein-gans) (NeurIPS 2017)
+ * [WGAN: Wasserstein Generative Adversarial Networks](http://proceedings.mlr.press/v70/arjovsky17a.html) (NeurIPS 2017)
 
 ## Domain Adaptations
 
 Optimal Transport for Domain Adaptations
-* [Sliced Wasserstein Discrepancy for Unsupervised Domain Adaptation](https://openaccess.thecvf.com/content_CVPR_2019/html/Lee_Sliced_Wasserstein_Discrepancy_for_Unsupervised_Domain_Adaptation_CVPR_2019_paper.html) (2019)
-* [Optimal Transport for Multi-source Domain Adaptation under Target Shift](http://proceedings.mlr.press/v89/redko19a.html) (2019)
-* [DeepJDOT: Deep Joint Distribution Optimal Transport for Unsupervised Domain Adaptation](https://openaccess.thecvf.com/content_ECCV_2018/html/Bharath_Bhushan_Damodaran_DeepJDOT_Deep_Joint_ECCV_2018_paper.html) (2018) | [Code](https://github.com/bbdamodaran/deepJDOT)
-* [Joint distribution optimal transportation for domain adaptation](https://papers.nips.cc/paper/6963-joint-distribution-optimal-transportation-for-domain-adaptation) (2017) | [Code](https://github.com/rflamary/JDOT)
-* [Optimal Transport for Domain Adaptation](https://arxiv.org/abs/1507.00504) (2017)
+* [Sliced Wasserstein Discrepancy for Unsupervised Domain Adaptation](https://openaccess.thecvf.com/content_CVPR_2019/html/Lee_Sliced_Wasserstein_Discrepancy_for_Unsupervised_Domain_Adaptation_CVPR_2019_paper.html) (CVPR 2019)
+* [Optimal Transport for Multi-source Domain Adaptation under Target Shift](http://proceedings.mlr.press/v89/redko19a.html) (AISTATS 2019)
+* [DeepJDOT: Deep Joint Distribution Optimal Transport for Unsupervised Domain Adaptation](https://openaccess.thecvf.com/content_ECCV_2018/html/Bharath_Bhushan_Damodaran_DeepJDOT_Deep_Joint_ECCV_2018_paper.html) (ECCV 2018) | [Code](https://github.com/bbdamodaran/deepJDOT)
+* [Wasserstein Distance Guided Representation Learning for Domain Adaptation](https://arxiv.org/abs/1707.01217) (AAAI 2018) | [Code](https://github.com/RockySJ/WDGRL)
+* [Joint distribution optimal transportation for domain adaptation](https://papers.nips.cc/paper/6963-joint-distribution-optimal-transportation-for-domain-adaptation) (NeurIPS2017) | [Code](https://github.com/rflamary/JDOT)
+* [Optimal Transport for Domain Adaptation](https://arxiv.org/abs/1507.00504) (TPAMI 2017)
