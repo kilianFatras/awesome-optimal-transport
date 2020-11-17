@@ -75,10 +75,12 @@ Sliced Optimal Transport (averaged of 1D projections)
 * [Max-Sliced Wasserstein Distance and Its Use for GANs](https://openaccess.thecvf.com/content_CVPR_2019/html/Deshpande_Max-Sliced_Wasserstein_Distance_and_Its_Use_for_GANs_CVPR_2019_paper.html) (CVPR 2019)
 * [Sliced Wasserstein kernels for probability distributions](https://openaccess.thecvf.com/content_cvpr_2016/papers/Kolouri_Sliced_Wasserstein_Kernels_CVPR_2016_paper.pdf) (CVPR 2016)
 
-## Unbalanced Optimal Transport
+## Unbalanced and Partial Optimal Transport
 
-Unbalanced Optimal Transport variants
-
+Unbalanced and Partial Optimal Transport variants
+* [Partial Gromov-Wasserstein with applications on Positive-Unlabeled Learning](https://arxiv.org/abs/2002.08276) (NeurIPS 2020) | [Code](https://github.com/lchapel/partial-GW-for-PU)
+* [Robust Optimal Transport with Applications in Generative Modeling and Domain Adaptation](https://arxiv.org/abs/2010.05862) (NeurIPS 2020) | [Code](https://github.com/yogeshbalaji/robustOT)
+* [On Unbalanced Optimal Transport: An Analysis of Sinkhorn Algorithm](https://arxiv.org/abs/2002.03293) (ICML 2020)
 * [Scaling Algorithms for Unbalanced Transport Problems](https://arxiv.org/abs/1607.05816) (Mathematics of Computation 2018)
 * [Unbalanced Optimal Transport: Dynamic and Kantorovich formulations](https://www.sciencedirect.com/science/article/pii/S0022123618301058) (Journal of Functional Analysis 2018) | [Code](https://pythonot.github.io/gen_modules/ot.unbalanced.html)
 
@@ -90,10 +92,12 @@ Theoretical insights and Optimal Transport variants to tackle the curse of dimen
 * [Statistical bounds for entropic optimal transport: sample complexity and the central limit theorem](https://papers.nips.cc/paper/8703-statistical-bounds-for-entropic-optimal-transport-sample-complexity-and-the-central-limit-theorem) (NeurIPS2019)
 * [Subspace Detours: Building Transport Plans that are Optimal on Subspace Projections](http://papers.nips.cc/paper/8915-subspace-detours-building-transport-plans-that-are-optimal-on-subspace-projections) (NeurIPS 2019)
 * [Subspace Robust Wasserstein Distances](http://proceedings.mlr.press/v97/paty19a.html) (ICML 2019) | [Code](https://github.com/francoispierrepaty/SubspaceRobustWasserstein)
- * [Sample Complexity of Sinkhorn Divergences](http://proceedings.mlr.press/v89/genevay19a.html) (AISTATS 2019)
+* [Sample Complexity of Sinkhorn Divergences](http://proceedings.mlr.press/v89/genevay19a.html) (AISTATS 2019)
 * [Sharp asymptotic and finite-sample rates of convergence of empirical measures in Wasserstein distance](https://projecteuclid.org/euclid.bj/1568362038) (Bernoulli 2019)
 
 ## Wasserstein barycenters
+
+Wasserstein barycenters applications
 
 * [Sinkhorn Barycenters with Free Support via Frank-Wolfe Algorithm](https://papers.nips.cc/paper/9130-sinkhorn-barycenters-with-free-support-via-frank-wolfe-algorithm.pdf) (NeurIPS 2019)
 * [On the Complexity of Approximating Wasserstein Barycenters](http://proceedings.mlr.press/v97/kroshnin19a.html) (ICML 2019)
@@ -118,6 +122,7 @@ Optimal Transport for Generative Models
 ## Domain adaptations
 
 Optimal Transport for Domain Adaptations
+* [Margin-aware Adversarial Domain Adaptation with Optimal Transport](https://hal.archives-ouvertes.fr/hal-02900715) (ICML 2020)
 * [Joint Partial Optimal Transport for Open Set Domain Adaptation](https://www.ijcai.org/Proceedings/2020/0352.pdf) (IJCAI 2020)
 * [Sliced Wasserstein Discrepancy for Unsupervised Domain Adaptation](https://openaccess.thecvf.com/content_CVPR_2019/html/Lee_Sliced_Wasserstein_Discrepancy_for_Unsupervised_Domain_Adaptation_CVPR_2019_paper.html) (CVPR 2019)
 * [Optimal Transport for Multi-source Domain Adaptation under Target Shift](http://proceedings.mlr.press/v89/redko19a.html) (AISTATS 2019)
@@ -131,5 +136,6 @@ Optimal Transport for Domain Adaptations
 
 Papers on Adversarial robustness using Wasserstein distance
 
+* [Stronger and Faster Wasserstein Adversarial Attacks](https://arxiv.org/abs/2008.02883) (ICML 2020)
 * [Wasserstein Smoothing: Certified Robustness against Wasserstein Adversarial Attacks](http://proceedings.mlr.press/v108/levine20a.html) (AISTATS 2020)
 * [Wasserstein Adversarial Examples via Projected Sinkhorn Iterations](http://proceedings.mlr.press/v97/wong19a) (ICML 2019)
