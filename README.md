@@ -32,7 +32,7 @@ A list of awesome papers and cool resources on optimal transport (OT) and its ap
 # Books
 
 * [Computational Optimal Transport](https://optimaltransport.github.io/) | [Arxiv](https://arxiv.org/abs/1803.00567)
-* [Optimal Transport for Applied Mathematicians](https://www.imo.universite-paris-saclay.fr/~filippo/OTAM-cvgmt.pdf)
+* [Optimal Transport for Applied Mathematicians](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.726.35&rep=rep1&type=pdf)
 
 
 # Papers
