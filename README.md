@@ -12,7 +12,7 @@ A list of awesome papers and cool resources on optimal transport (OT) and its ap
     * [Approximation Optimal Transport](#approximating-optimal-transport)
     * [Regularized Optimal Transport](#regularized-optimal-transport)
     * [Sliced Optimal Transport](#sliced-optimal-transport)
-  * [Unbalanced Optimal Transport](#unbalanced-optimal-transport)
+  * [Relaxed Optimal Transport](#relaxed-optimal-transport)
   * [Curse of dimension](#curse-of-dimension)
   * [Wasserstein barycenters](#wasserstein-barycenters)
   * [Generative Models](#generative-models)
@@ -70,19 +70,30 @@ Regularized Optimal Transport and solvers
 
 Sliced Optimal Transport (averaged of 1D projections)
 
+* [On Projection Robust Optimal Transport: Sample Complexity and Model Misspecification](https://arxiv.org/pdf/2006.12301.pdf) (AISTATS 2021)
+* [Distributional Sliced-Wasserstein and Applications to Generative Modeling](https://openreview.net/forum?id=QYjO70ACDK) (ICLR 2021)
 * [Sliced Gromov-Wasserstein](https://papers.nips.cc/paper/9615-sliced-gromov-wasserstein) (NeurIPS 2019) | [Code](https://github.com/tvayer/SGW)
 * [Generalized Sliced Wasserstein Distances](https://papers.nips.cc/paper/8319-generalized-sliced-wasserstein-distances) (NeurIPS 2019)
 * [Max-Sliced Wasserstein Distance and Its Use for GANs](https://openaccess.thecvf.com/content_CVPR_2019/html/Deshpande_Max-Sliced_Wasserstein_Distance_and_Its_Use_for_GANs_CVPR_2019_paper.html) (CVPR 2019)
 * [Sliced Wasserstein kernels for probability distributions](https://openaccess.thecvf.com/content_cvpr_2016/papers/Kolouri_Sliced_Wasserstein_Kernels_CVPR_2016_paper.pdf) (CVPR 2016)
 
-## Unbalanced and Partial Optimal Transport
+## Relaxed Optimal Transport
+
+### Unbalanced and Partial Optimal Transport
 
 Unbalanced and Partial Optimal Transport variants
+
 * [Partial Gromov-Wasserstein with applications on Positive-Unlabeled Learning](https://arxiv.org/abs/2002.08276) (NeurIPS 2020) | [Code](https://github.com/lchapel/partial-GW-for-PU)
-* [Robust Optimal Transport with Applications in Generative Modeling and Domain Adaptation](https://arxiv.org/abs/2010.05862) (NeurIPS 2020) | [Code](https://github.com/yogeshbalaji/robustOT)
 * [On Unbalanced Optimal Transport: An Analysis of Sinkhorn Algorithm](https://arxiv.org/abs/2002.03293) (ICML 2020)
 * [Scaling Algorithms for Unbalanced Transport Problems](https://arxiv.org/abs/1607.05816) (Mathematics of Computation 2018)
 * [Unbalanced Optimal Transport: Dynamic and Kantorovich formulations](https://www.sciencedirect.com/science/article/pii/S0022123618301058) (Journal of Functional Analysis 2018) | [Code](https://pythonot.github.io/gen_modules/ot.unbalanced.html)
+
+### Robust Optimal Transport
+
+Robust Optimal Transport variants
+
+* [When OT meets MoM: Robust estimation of Wasserstein Distance](https://arxiv.org/abs/2006.10325) (AISTATS 2021)
+* [Robust Optimal Transport with Applications in Generative Modeling and Domain Adaptation](https://arxiv.org/abs/2010.05862) (NeurIPS 2020) | [Code](https://github.com/yogeshbalaji/robustOT)
 
 ## Curse of dimension
 
@@ -99,6 +110,7 @@ Theoretical insights and Optimal Transport variants to tackle the curse of dimen
 
 Wasserstein barycenters applications
 
+* [Improved Complexity Bounds in Wasserstein Barycenter Problem](https://arxiv.org/pdf/2010.04677.pdf) (AISTATS 2021)
 * [Sinkhorn Barycenters with Free Support via Frank-Wolfe Algorithm](https://papers.nips.cc/paper/9130-sinkhorn-barycenters-with-free-support-via-frank-wolfe-algorithm.pdf) (NeurIPS 2019)
 * [On the Complexity of Approximating Wasserstein Barycenters](http://proceedings.mlr.press/v97/kroshnin19a.html) (ICML 2019)
 * [Decentralize and Randomize: Faster Algorithm for Wasserstein Barycenters](http://papers.nips.cc/paper/8274-decentralize-and-randomize-faster-algorithm-for-wasserstein-barycenter) (NeurIPS 2018)
@@ -111,6 +123,8 @@ Wasserstein barycenters applications
 
 Optimal Transport for Generative Models
 
+ * [Disentangled Recurrent Wasserstein Autoencoder](https://openreview.net/forum?id=O7ms4LFdsX) (ICLR 2021)
+ * [Wasserstein-2 Generative Networks](https://openreview.net/forum?id=bEoxzW_EXsa) (ICLR 2021)
  * [Learning Generative Models across Incomparable Spaces](http://proceedings.mlr.press/v97/bunne19a) (ICML 2019) | [Code](https://github.com/bunnech/gw_gan)
  * [Sliced-Wasserstein Flows: Nonparametric Generative Modeling via Optimal Transport and Diffusions](http://proceedings.mlr.press/v97/liutkus19a) (ICML 2019) | [Code](https://github.com/aliutkus/swf)
  * [Sliced Wasserstein Generative Models](https://openaccess.thecvf.com/content_CVPR_2019/html/Wu_Sliced_Wasserstein_Generative_Models_CVPR_2019_paper.html) (CVPR 2019)
