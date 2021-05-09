@@ -16,7 +16,7 @@ A list of awesome papers and cool resources on optimal transport (OT) and its ap
   * [Curse of dimension](#curse-of-dimension)
   * [Wasserstein barycenters](#wasserstein-barycenters)
   * [Generative Models](#generative-models)
-  * [Domain Adaptations](#domain-adaptation)
+  * [Domain Adaptation](#domain-adaptation)
   * [Adversarial Robustness](#adversarial-robustness)
 
 # Tutorials and Blogs
@@ -133,9 +133,9 @@ Optimal Transport for Generative Models
  * [WGAN-GP: Improved Training of Wasserstein GANs](https://papers.nips.cc/paper/7159-improved-training-of-wasserstein-gans) (NeurIPS 2017)
  * [WGAN: Wasserstein Generative Adversarial Networks](http://proceedings.mlr.press/v70/arjovsky17a.html) (NeurIPS 2017)
 
-## Domain adaptations
+## Domain adaptation
 
-Optimal Transport for Domain Adaptations
+Optimal Transport for Domain Adaptation
 * [Unbalanced minibatch Optimal Transport; applications to Domain Adaptation](https://arxiv.org/abs/2103.03606) (ICML 2021)
 * [Margin-aware Adversarial Domain Adaptation with Optimal Transport](https://hal.archives-ouvertes.fr/hal-02900715) (ICML 2020)
 * [Joint Partial Optimal Transport for Open Set Domain Adaptation](https://www.ijcai.org/Proceedings/2020/0352.pdf) (IJCAI 2020)
