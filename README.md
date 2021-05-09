@@ -136,6 +136,7 @@ Optimal Transport for Generative Models
 ## Domain adaptations
 
 Optimal Transport for Domain Adaptations
+* [Unbalanced minibatch Optimal Transport; applications to Domain Adaptation](https://arxiv.org/abs/2103.03606) (ICML 2021)
 * [Margin-aware Adversarial Domain Adaptation with Optimal Transport](https://hal.archives-ouvertes.fr/hal-02900715) (ICML 2020)
 * [Joint Partial Optimal Transport for Open Set Domain Adaptation](https://www.ijcai.org/Proceedings/2020/0352.pdf) (IJCAI 2020)
 * [Sliced Wasserstein Discrepancy for Unsupervised Domain Adaptation](https://openaccess.thecvf.com/content_CVPR_2019/html/Lee_Sliced_Wasserstein_Discrepancy_for_Unsupervised_Domain_Adaptation_CVPR_2019_paper.html) (CVPR 2019)
