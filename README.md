@@ -17,6 +17,7 @@ A list of awesome papers and cool resources on optimal transport (OT) and its ap
   * [Wasserstein barycenters](#wasserstein-barycenters)
   * [Generative Models](#generative-models)
   * [Domain Adaptation](#domain-adaptation)
+  * [Vision-Language Models](#vision-language-models)
   * [Adversarial Robustness](#adversarial-robustness)
 
 # Tutorials and Blogs
@@ -146,6 +147,10 @@ Optimal Transport for Domain Adaptation
 * [Wasserstein Distance Guided Representation Learning for Domain Adaptation](https://arxiv.org/abs/1707.01217) (AAAI 2018) | [Code](https://github.com/RockySJ/WDGRL)
 * [Joint distribution optimal transportation for domain adaptation](https://papers.nips.cc/paper/6963-joint-distribution-optimal-transportation-for-domain-adaptation) (NeurIPS2017) | [Code](https://github.com/rflamary/JDOT)
 * [Optimal Transport for Domain Adaptation](https://arxiv.org/abs/1507.00504) (TPAMI 2017)
+
+## Vision-Language Models
+
+* [AWT: Transferring Vision-Language Models via Augmentation, Weighting, and Transportation](https://proceedings.neurips.cc/paper_files/paper/2024/hash/2d4eaf042567f1c03c086103cc154c1f-Abstract-Conference.html) (NeurIPS 2024) [[Code]](https://github.com/MCG-NJU/AWT)
 
 ## Adversarial robustness
 
